@@ -1,0 +1,33 @@
+@import '../../assets/css/mixins.styl'
+.interpage
+  width 100%
+  height 100%
+  background #eee
+  .g-bd
+    width 100%
+    height 100%
+    background #eee
+    color #333
+    /*position relative*/
+    .row
+      position absolute
+      margin-top px2rem(200)
+      width 100%
+      &:nth-child(2)
+        margin-top px2rem(900)
+      img
+        width 100%
+      .download-app
+        width px2rem(400)
+        height px2rem(100)
+        position absolute
+        bottom px2rem(340)
+        left px2rem(180)
+      .toHome
+        width px2rem(200)
+        height px2rem(20)
+        display block
+        position absolute
+        left px2rem(256)
+        bottom px2rem(180)
+        font-size px2rem(24)

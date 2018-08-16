@@ -1,0 +1,56 @@
+@import '../../assets/css/mixins.styl'
+.topic
+  width 100%
+  height 100%
+  background #f4f4f4
+  overflow hidden
+  .goTop
+    position fixed
+    z-index 99
+    bottom px2rem(120)
+    right px2rem(34)
+    i
+      width px2rem(100)
+      height px2rem(100)
+      display block
+      background url('../../assets/images/goTop.png') no-repeat
+  .wrapTopic
+    height 90%
+  .whiteSpace
+    width 100%
+    height px2rem(20)
+    background #f4f4f4
+  .look
+    margin-bottom px2rem(20)
+    background #ffffff
+    .title
+      font-size px2rem(28)
+      line-height px2rem(120)
+      text-align center
+      color #333
+    .content
+      display flex
+      flex-direction column
+      img
+        width 100%
+      .author
+        padding px2rem(20) 0 px2rem(20) px2rem(20)
+        display flex
+        align-items center
+        .authorPic
+          img
+            width px2rem(46)
+            height px2rem(46)
+            border-radius 50%
+            margin-right px2rem(10)
+        .authorName
+          color: #333;
+          font-size px2rem(28)
+          letter-spacing px2rem(4)
+          margin-left px2rem(20)
+          ellipsis()
+      .desc
+        font-size px2rem(28)
+        color #7f7f7f
+        line-height 1.6
+        padding px2rem(10) px2rem(30) px2rem(20)

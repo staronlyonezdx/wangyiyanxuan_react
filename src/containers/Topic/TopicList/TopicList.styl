@@ -1,0 +1,36 @@
+@import '../../../assets/css/mixins.styl'
+.topicList
+  height px2rem(226)
+  background white
+  padding px2rem(32) 0 px2rem(28) px2rem(30)
+  margin-bottom px2rem(20)
+  .listWrap
+    display flex
+    overflow hidden
+    .listUl
+      display flex
+      .item
+        width px2rem(164)
+        height px2rem(220)
+        position relative
+        padding-right px2rem(40)
+        img
+          width px2rem(164)
+          height px2rem(164)
+        .num
+          font-size px2rem(24)
+          color #ffff
+          position absolute
+          top 0
+          right px2rem(40)
+          width px2rem(116)
+          height px2rem(32)
+          background url('../../../assets/images/bg.png') no-repeat
+        .title
+          font-size px2rem(24)
+          color #333
+          line-height 1
+          height px2rem(30)
+          text-align center
+          margin-top px2rem(20)
+          ellipsis()

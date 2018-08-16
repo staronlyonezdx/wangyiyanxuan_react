@@ -1,0 +1,46 @@
+@import '../../../assets/css/mixins.styl'
+.wrap
+  margin-top px2rem(100)
+  padding px2rem(25) 0
+  width 100%
+  background white
+  .swiper-container
+    .swiper-wrapper
+      .swiper-slide
+        width px2rem(650)
+        height px2rem(385)
+        margin-right px2rem(40)
+        position relative
+        img
+          width 100%
+          height px2rem(385)
+        .content
+          position absolute
+          width px2rem(466)
+          height px2rem(198)
+          display flex
+          flex-direction column
+          align-items center
+          top 0
+          left 0
+          bottom 0
+          right 0
+          margin auto
+          background rgba(255,255,255,0.9)
+          .subTitle
+            font-size px2rem(20)
+            color #7f7f7f
+            line-height px2rem(30)
+            padding 0 px2rem(8)
+            margin-top px2rem(20)
+          .title
+            font-size px2rem(32)
+            line-height px2rem(48)
+            color #333
+            margin-top px2rem(26)
+            font-weight 700
+          .desc
+            font-size px2rem(24)
+            color #333
+            line-height px2rem(36)
+            padding-top px2rem(4)

@@ -1,0 +1,61 @@
+@import '../../../assets/css/mixins.styl'
+.topicShow
+  margin-bottom px2rem(20)
+  padding-left px2rem(20)
+  padding-bottom px2rem(20)
+  background #fff
+  .title
+    font-size px2rem(28)
+    line-height px2rem(120)
+    text-align center
+    color #333
+  .showWrap
+    display flex
+    .showUl
+      display flex
+      .showLi
+        width px2rem(633)
+        height px2rem(412)
+        background-image url('../../../assets/images/qipao.png')
+        background-repeat no-repeat
+        background-size 100% 100%
+        margin-right px2rem(20)
+        display flex
+        flex-direction column
+        align-items center
+        .lineTitle
+          font-size px2rem(24)
+          color #7f7f7f
+          margin-top px2rem(80)
+        .tsTitle
+          font-size px2rem(36)
+          font-weight 700
+          margin-top px2rem(60)
+        .desc
+          line-height 1.5
+          font-size px2rem(28)
+          margin-top px2rem(20)
+          margin-bottom px2rem(14)
+          ellipsis()
+
+        .joinInfo
+          font-size px2rem(24)
+          margin-top px2rem(20)
+      .more
+        width px2rem(560)
+        height px2rem(365)
+        border 10px solid #e6e6e6
+        background #fafafa
+        display flex
+        align-items center
+        justify-content center
+        span
+          color #7f7f7f
+          font-size px2rem(32)
+          margin-right px2rem(20)
+        i
+          width px2rem(30)
+          height px2rem(30)
+          background-image url('../../../assets/images/right.png')
+          background-repeat no-repeat
+          background-size 100% 100%

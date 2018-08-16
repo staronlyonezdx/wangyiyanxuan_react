@@ -1,0 +1,90 @@
+@import '../../assets/css/mixins.styl'
+.peraonal
+  width 100%
+  height 100%
+  overflow hidden
+.loginWrap
+  width 100%
+  margin-top px2rem(120)
+  .logoWrap
+    width 100%
+    text-align center
+    img
+      width px2rem(270)
+      height px2rem(90)
+      padding-top 100px
+
+  .btnWrap
+    width 100%
+    transform translateY(px2rem(120))
+    .btnBlock
+      width px2rem(673)
+      height px2rem(96)
+      margin 0 auto
+      background-color $main
+      text-align center
+      line-height px2rem(96)
+      font-size 30px
+      color white
+      display flex
+      .loginPhone
+        width px2rem(40)
+        height px2rem(40)
+        display inline-block
+        margin-top 25px
+        margin-left 240px
+        margin-right 10px
+        background-image url('//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/login-s2d0d826858-b284a621da.png')
+        background-position -40px 246px
+    .btnGhostRed
+      width px2rem(673)
+      height px2rem(96)
+      margin 0 auto
+      border 1px solid $main
+      text-align center
+      line-height px2rem(96)
+      font-size 30px
+      display flex
+      margin-top 30px
+      .loginMail
+        width px2rem(40)
+        height px2rem(40)
+        display inline-block
+        margin-top 25px
+        margin-left 240px
+        margin-right 10px
+        background-image url('//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/login-s2d0d826858-b284a621da.png')
+        background-position -40px 295px
+    .toLogin
+      width px2rem(673)
+      height px2rem(40)
+      text-align center
+      font-size 27px
+      line-height px2rem(40)
+      margin-top 30px
+      .arrow
+        width px2rem(27)
+        height px2rem(27)
+        display inline-block
+        background-image url('//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/arrow-right3-c1ab37e88b.png')
+        background-position 32px 30px
+
+.otherLogin
+  position absolute
+  width 100%
+  height px2rem(60)
+  left 0
+  bottom px2rem(60)
+  text-align center
+  .itemOther
+    height px2rem(26)
+    border-right 1px solid #979797
+    display inline-block
+    text-align center
+    color #979797
+    padding 0 px2rem(60)
+    font-size px2rem(26)
+    >i
+      font-size px2rem(26)
+    &:last-child
+      border-right none

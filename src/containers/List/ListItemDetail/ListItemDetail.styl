@@ -1,0 +1,49 @@
+@import '../../../assets/css/mixins.styl'
+.moreDetail
+  margin-left px2rem(162)
+  height px2rem(1140)
+  .detailWrap
+    overflow hidden
+    height 100%
+    .detailContent
+      padding px2rem(30) px2rem(30) px2rem(21)
+      .img
+        width 100%
+        height px2rem(192)
+        img
+          width 100%
+          height 100%
+
+      .detailTit
+        height px2rem(108)
+        line-height px2rem(108)
+        color #333
+        text-align center
+        font-size px2rem(24)
+        position relative
+        .title
+          position relative
+          z-index 6
+        .line
+          width px2rem(200)
+          height 1px
+          background #d9d9d9
+          position absolute
+          top 50%
+          left 0
+          right 0
+          margin 0 auto
+      .detail
+        .detailUl
+          display flex
+          flex-flow row wrap
+          .item
+            margin-right px2rem(30)
+            width px2rem(144)
+            img
+              width px2rem(144)
+              height px2rem(144)
+            div
+              font-size px2rem(24)
+              text-align center
+              height px2rem(72)

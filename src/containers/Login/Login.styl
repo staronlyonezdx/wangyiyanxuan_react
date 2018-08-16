@@ -1,0 +1,92 @@
+@import "../../assets/css/mixins.styl"
+.loginPhone,.loginEmail
+  width 100%
+  height 100%
+  background white
+  .alert
+    font-size px2rem(24)
+    color red
+    margin-bottom px2rem(30)
+  .logo
+    width 100%
+    text-align center
+    img
+      width px2rem(270)
+      height px2rem(90)
+      margin-top px2rem(200)
+  .loginInfo
+    width px2rem(673)
+    margin px2rem(100) auto px2rem(30)
+    display flex
+    flex-direction column
+    font-size px2rem(30)
+    input
+      height px2rem(96)
+      width 70%
+      margin-left px2rem(20)
+      outline none
+      padding-left px2rem(10)
+    .yzm
+      font-size px2rem(24)
+      border px2rem(1) solid black
+      padding px2rem(10)
+      border-radius px2rem(10)
+    .switch
+      width px2rem(100)
+      height px2rem(40)
+      background $main
+      float right
+      margin-top px2rem(40)
+      margin-right px2rem(40)
+      border-radius px2rem(20)
+      .inner
+        width px2rem(50)
+        height px2rem(40)
+        background white
+        border-radius 50%
+    .act
+      width 100%
+      height px2rem(96)
+      text-align center
+      line-height px2rem(96)
+      font-size px2rem(24)
+      .left
+        float left
+        margin-left px2rem(20)
+      .right
+        float right
+        margin-right px2rem(20)
+    .btnBlock
+      width px2rem(673)
+      height px2rem(96)
+      margin 0 auto
+      background-color $main
+      text-align center
+      line-height px2rem(96)
+      font-size 30px
+      color white
+  .footer
+    .btnGhostRed
+      width px2rem(673)
+      height px2rem(96)
+      margin 0 auto
+      border 1px solid $main
+      text-align center
+      line-height px2rem(96)
+      font-size 30px
+    .toLogin
+      width px2rem(673)
+      height px2rem(40)
+      text-align center
+      font-size 27px
+      line-height px2rem(40)
+      margin-top 30px
+      .arrow
+        width px2rem(27)
+        height px2rem(27)
+        display inline-block
+        background-image url('//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/arrow-right3-c1ab37e88b.png')
+        background-position 32px 30px
+.loginEmail
+  position absolute
+  top 0
